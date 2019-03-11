@@ -23,10 +23,13 @@ $config['base_url'] = 'http://127.0.0.1/YOUR_CODE_URL/';
 
 2 .install node
 go to /assets/my-app directory and run 
+
 ```npm install```
 
 3.after complete the installtion run 
+
 ```npm start```
+
 in my-app directory
 
 
