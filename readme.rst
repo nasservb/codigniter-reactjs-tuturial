@@ -9,20 +9,24 @@ How to Start
 1.create my sql db and import db.sql in that 
 
 2.change /application/config/config.php
-`$config['base_url'] = 'http://127.0.0.1/YOUR_CODE_URL/';`
+```php
+$config['base_url'] = 'http://127.0.0.1/YOUR_CODE_URL/';
+```
 
 3.change /application/config/database.php
-`'hostname' => 'localhost',
+```php
+'hostname' => 'localhost',
 'username' => 'database-user-name',
 'password' => 'database-user-pass',
 'database' => 'database-name',
+```
 
 2 .install node
 go to /assets/my-app directory and run 
-`npm install`
+```npm install```
 
 3.after complete the installtion run 
-`npm start`
+```npm start```
 in my-app directory
 
 
@@ -43,7 +47,8 @@ https://codeigniter.com
  
  
 ###################
-Report security issues to our `Security Panel <mailto:nasservb@gmail.com>`_
+Report security issues to mel 
+nasservb@gmail.com
 
 
  
